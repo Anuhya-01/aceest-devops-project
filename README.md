@@ -47,7 +47,7 @@ Open in browser:
 http://127.0.0.1:5000  
 
 
-![Browser Output](Python browser.png)
+![Browser Output](Pybrowser.png)
 
 
 ---
@@ -59,7 +59,7 @@ Expected Output:
 `2 passed`
 
 
-![Pytest Result](Pytest output.png)
+![Pytest Result](Pytest.png)
 
 
 ---
