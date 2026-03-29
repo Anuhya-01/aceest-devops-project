@@ -44,7 +44,8 @@ pip install -r requirements.txt
 python app.py
 
 Open in browser:  
-http://127.0.0.1:5000
+http://127.0.0.1:5000  
+
 ![Browser Output](Python browser.png)
 ---
 
@@ -53,6 +54,7 @@ python -m pytest
 
 Expected Output:  
 `2 passed`
+
 ![Pytest Result](Pytest output.png)
 ---
 
