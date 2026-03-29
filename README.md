@@ -42,9 +42,7 @@ aceest-devops/
 ├── README.md               # Documentation
 
 └── .github/
-
     └── workflows/
-    
         └── main.yml        # CI/CD pipeline
         
 
