@@ -1,4 +1,4 @@
-# ACEest Fitness & Gym – CI/CD DevOps Project
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/87b7d0a4-a916-418e-8207-17c7fbeec32c" /># ACEest Fitness & Gym – CI/CD DevOps Project
 
 ## 1. Project Overview
 
@@ -26,21 +26,17 @@ The following tools and technologies were used in this project:
 
 ---
 
-## 3. Project Structure
-
-aceest-devops/
+## 3. Project Structureaceest-devops/
 │
-     ├── app.py                  # Flask application
-
-    ├── test_app.py             # Pytest test cases
-
+├── app.py                  # Flask application
+├── test_app.py             # Pytest test cases
 ├── requirements.txt        # Dependencies
-
 ├── Dockerfile              # Container configuration
 ├── README.md               # Documentation
 └── .github/
     └── workflows/
         └── main.yml        # CI/CD pipeline
+
 
 ![Project Structure](GitStructure.png)
 
