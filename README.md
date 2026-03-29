@@ -30,6 +30,7 @@ The following tools and technologies were used in this project:
 aceest-devops/
 
 │
+
 ├── app.py                  # Flask application
 
 ├── test_app.py             # Pytest test cases
@@ -41,9 +42,7 @@ aceest-devops/
 ├── README.md               # Documentation
 
 └── .github/
-
     └── workflows/
-    
         └── main.yml        # CI/CD pipeline
         
 
