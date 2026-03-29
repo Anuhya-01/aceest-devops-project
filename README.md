@@ -84,7 +84,7 @@ The CI/CD pipeline is defined in:
 
 ## 📸 CI/CD Pipeline Result
 
-![CI/CD Pipeline](actions.png)
+![CI/CD Pipeline](Action.png)
 
 ---
 
@@ -94,7 +94,7 @@ The CI/CD pipeline is defined in:
 
 ## 🐳 Docker Output
 
-![Docker Output](docker.png)
+![Docker Output](Docker.png)
 
 ---
 
