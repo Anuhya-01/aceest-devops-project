@@ -46,9 +46,6 @@ aceest-devops/
 ├── test_app.py             # Pytest test cases
 
 
-        
-
-
 ![Project Structure](GitStructure.png)
 
 
