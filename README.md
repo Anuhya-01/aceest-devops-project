@@ -25,16 +25,8 @@ This ensures faster, reliable, and consistent application delivery.
 ---
 
 ## 📁 Project Structure
-aceest-devops/
-│
-├── app.py
-├── test_app.py
-├── requirements.txt
-├── Dockerfile
-├── README.md
-└── .github/
-└── workflows/
-└── main.yml
+
+![Project Structure](GitStructure.png)
 
 
 ---
@@ -42,6 +34,8 @@ aceest-devops/
 ## ⚙️ Run Application Locally
 pip install -r requirements.txt
 python app.py
+
+![Run Application Locally](Pyrun.pg)
 
 Open in browser:  
 http://127.0.0.1:5000  
