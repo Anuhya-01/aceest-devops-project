@@ -72,17 +72,17 @@ The following screenshot shows successful execution of test cases:
 
 ## 6. Docker Setup
 Docker is used to containerize the application for consistent deployment across environments.
-### Build Docker Image
+### 6.1 Build Docker Image
 docker build -t aceest-app .
-### Run Docker Container
+### 6.2 Run Docker Container
 docker run -p 5000:5000 aceest-app
 
 ![Browser Output](Docker_Build_Run.png)
 
-### Access Application
+### 6.3 Access Application
 http://localhost:5000
 
-## 6.1 Docker Output
+## 6.4 Docker Output
 
 The following screenshot shows the application running inside a Docker container:
 
