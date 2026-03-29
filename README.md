@@ -53,7 +53,7 @@ python -m pytest
 
 Expected Output:  
 `2 passed`
-
+![Expected Output](python output.png)
 ---
 
 ## 🐳 Docker Setup
@@ -84,15 +84,17 @@ The CI/CD pipeline is defined in:
 
 ## 📸 CI/CD Pipeline Result
 
-
+![CI/CD Pipeline](actions.png)
 
 ---
 
 ## 🏗️ Architecture Diagram
 
+![Architecture](Architecture.png)
+
 ## 🐳 Docker Output
 
-
+![Docker Output](docker.png)
 
 ---
 
