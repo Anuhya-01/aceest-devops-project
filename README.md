@@ -31,7 +31,7 @@ aceest-devops/
 
 │
 
-├── app.py                  # Flask application
+├── app.py                   # Flask application
 
 ├── test_app.py             # Pytest test cases
 
