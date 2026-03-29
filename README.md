@@ -31,19 +31,19 @@ aceest-devops/
 
 │
 
-└── .github/
+├── .github/
     └── workflows/
         └── main.yml        # CI/CD pipeline
-
-├── app.py                   # Flask application
-
-├── test_app.py             # Pytest test cases
-
-├── requirements.txt        # Dependencies
 
 ├── Dockerfile              # Container configuration
 
 ├── README.md               # Documentation
+
+├── app.py                   # Flask application
+
+├── requirements.txt        # Dependencies
+
+├── test_app.py             # Pytest test cases
 
 
         
