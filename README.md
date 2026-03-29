@@ -1,6 +1,6 @@
-# 🏋️ ACEest Fitness & Gym – CI/CD DevOps Project
+# ACEest Fitness & Gym – CI/CD DevOps Project
 
-## 🚀 Project Overview
+## 1. Project Overview
 
 This project demonstrates a complete CI/CD pipeline using Flask, GitHub Actions, Docker, and Pytest.
 
@@ -13,7 +13,7 @@ This ensures faster, reliable, and consistent application delivery.
 
 ---
 
-## 🧰 Tools & Technologies Used
+## 2. Tools & Technologies Used
 
 The following tools and technologies were used in this project:
 - **Python** → Backend programming  
@@ -26,14 +26,14 @@ The following tools and technologies were used in this project:
 
 ---
 
-## 📁 Project Structure
+## 3. Project Structure
 
 ![Project Structure](GitStructure.png)
 
 
 ---
 
-## ⚙️ Run Application Locally
+## 4. Run Application Locally
 
 Follow these steps to run the application on your local machine:
 ### Step 1: Install dependencies
@@ -52,15 +52,16 @@ The following screenshots shows the Installation & Flask application running suc
 
 ---
 
-## 🧪 Run Tests
+## 5. Run Tests
 
 Execute the following command to run test cases:
+
 python -m pytest
 
 ### Expected Output:
 `2 passed`
 
-## 🧪 Test Output
+## 5.1 Test Output
 
 The following screenshot shows successful execution of test cases:
 
@@ -69,7 +70,7 @@ The following screenshot shows successful execution of test cases:
 
 ---
 
-## 🐳 Docker Setup
+## 6. Docker Setup
 Docker is used to containerize the application for consistent deployment across environments.
 ### Build Docker Image
 docker build -t aceest-app .
@@ -81,20 +82,20 @@ docker run -p 5000:5000 aceest-app
 ### Access Application
 http://localhost:5000
 
-## 📸 Docker Output
+## 6.1 Docker Output
 
 The following screenshot shows the application running inside a Docker container:
 
 ![Docker Output](Docker.png)
 
 ---
-## ⚙️ CI/CD Pipeline (GitHub Actions)
+## 7. CI/CD Pipeline (GitHub Actions)
 
 The CI/CD pipeline is implemented using GitHub Actions and is defined in:
 
 .github/workflows/main.yml
 
-### 🔄 Pipeline Workflow:
+### 7.1 Pipeline Workflow:
 
 1. Code is pushed to GitHub repository  
 2. GitHub Actions workflow is triggered automatically  
@@ -106,14 +107,14 @@ This automation ensures that the application is always tested and ready for depl
 
 ---
 
-## 📸 CI/CD Pipeline Result
+## 7.2 CI/CD Pipeline Result
 
 The following screenshot shows successful execution of the CI/CD pipeline:
 ![CI/CD Pipeline](Action.png)
 
 ---
 
-## 🏗️ Architecture Diagram
+## 8. Architecture Diagram
 
 The architecture of the system follows a CI/CD pipeline approach:
 Developer → GitHub → GitHub Actions → Pytest → Docker → Application Deployment
@@ -127,7 +128,7 @@ This improves:
 
 ---
 
-## 🔧 Jenkins Integration
+## 9. Jenkins Integration
 
 Jenkins is a build automation tool used for continuous integration.
 
@@ -142,7 +143,7 @@ In this project:
 
 ---
 
-## 📌 Conclusion
+## 10. Conclusion
 
 This project demonstrates a complete DevOps pipeline that automates:
 - Code integration  
