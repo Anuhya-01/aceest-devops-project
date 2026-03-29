@@ -26,7 +26,8 @@ The following tools and technologies were used in this project:
 
 ---
 
-## 3. Project Structureaceest-devops/
+## 3. Project Structure
+aceest-devops/
 
 │
 ├── app.py                  # Flask application
@@ -34,11 +35,17 @@ The following tools and technologies were used in this project:
 ├── test_app.py             # Pytest test cases
 
 ├── requirements.txt        # Dependencies
+
 ├── Dockerfile              # Container configuration
+
 ├── README.md               # Documentation
+
 └── .github/
+
     └── workflows/
+    
         └── main.yml        # CI/CD pipeline
+        
 
 
 ![Project Structure](GitStructure.png)
