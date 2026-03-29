@@ -68,6 +68,7 @@ Expected Output:
 docker build -t aceest-app .
 docker run -p 5000:5000 aceest-app
 
+![Browser Output](Docker_Build_Run.png)
 
 Open:  
 http://localhost:5000
