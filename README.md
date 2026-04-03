@@ -187,14 +187,14 @@ Jenkins is used as an additional Continuous Integration (CI) tool to validate th
 
 ## 9.6 Jenkins Build Screenshots
 
-### 9.6.1 Build Triggered
-![Build Trigger](BuildRun.png)
-
-### 9.6.2 Repository Connected
+### 9.6.1 Repository Connected
 ![GitHub Integration](JerkinconnectedtoGithub.png)
 
+### 9.6.2 Build Triggered
+![Build Trigger](BuildSchedule.png)
+
 ### 9.6.3 Build Status
-![Build Status](BuildSchedule.png)
+![Build Status](BuildRun.png)
 
 ---
 
