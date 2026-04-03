@@ -154,10 +154,47 @@ In this project:
 - GitHub Actions is used as the primary CI/CD tool  
 - Jenkins is considered as an additional validation tool  
 
-### Jenkins Workflow:
-- Pull code from GitHub  
-- Execute build and tests  
-- Validate application  
+---
+
+## 🔧 Jenkins Integration
+
+Jenkins is used as an additional Continuous Integration (CI) tool to validate the application build and testing process.
+
+### 🔹 Purpose
+- Acts as a secondary validation layer
+- Ensures code builds successfully
+- Verifies test execution independently from GitHub Actions
+
+### 🔹 Jenkins Workflow
+1. Pulls source code from GitHub repository  
+2. Executes build process  
+3. Installs dependencies  
+4. Runs test cases using Pytest  
+5. Displays build status (Success/Failure)
+
+### 🔹 Configuration Details
+- Source Code: GitHub Repository  
+- Branch: main  
+- Build Tool: Execute Shell  
+- Test Framework: Pytest  
+
+### 🔹 Outcome
+- Jenkins successfully triggers builds  
+- Validates application functionality  
+- Provides an additional quality gate in CI/CD pipeline  
+
+---
+
+## 📸 Jenkins Build Screenshots
+
+### ✅ Build Triggered
+![Build Trigger](Build_Run.png)
+
+### 🔗 Repository Connected
+![GitHub Integration](Jerkin connected to Github.png)
+
+### 📊 Build Status
+![Build Status](Build Schedule.png)
 
 ---
 
