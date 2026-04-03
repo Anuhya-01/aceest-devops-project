@@ -160,40 +160,40 @@ In this project:
 
 Jenkins is used as an additional Continuous Integration (CI) tool to validate the application build and testing process.
 
-### 9.2 Purpose
+### 9.1.1 Purpose
 - Acts as a secondary validation layer
 - Ensures code builds successfully
 - Verifies test execution independently from GitHub Actions
 
-### 9.3 Jenkins Workflow
+### 9.1.2 Jenkins Workflow
 1. Pulls source code from GitHub repository  
 2. Executes build process  
 3. Installs dependencies  
 4. Runs test cases using Pytest  
 5. Displays build status (Success/Failure)
 
-### 9.4 Configuration Details
+### 9.1.3 Configuration Details
 - Source Code: GitHub Repository  
 - Branch: main  
 - Build Tool: Execute Shell  
 - Test Framework: Pytest  
 
-### 9.5 Outcome
+### 9.1.4 Outcome
 - Jenkins successfully triggers builds  
 - Validates application functionality  
 - Provides an additional quality gate in CI/CD pipeline  
 
 ---
 
-## 9.6 Jenkins Build Screenshots
+## 9.2 Jenkins Build Screenshots
 
-### 9.6.1 Repository Connected
+### 9.2.1 Repository Connected
 ![GitHub Integration](JerkinconnectedtoGithub.png)
 
-### 9.6.2 Build Triggered
+### 9.2.2 Build Triggered
 ![Build Trigger](BuildSchedule.png)
 
-### 9.6.3 Build Status
+### 9.2.3 Build Status
 ![Build Status](BuildRun.png)
 
 ---
